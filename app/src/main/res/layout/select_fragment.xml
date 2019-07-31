@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="ID" />
+
+        <Button
+            android:id="@+id/select_by_one"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textColor="@color/cardview_light_background"
+            android:background="?attr/colorAccent"
+            android:textSize="20dp"
+            android:text="select by one" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/et_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Category" />
+
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Description" />
+
+        <Button
+            android:id="@+id/select_by_few"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="60dp"
+            android:textColor="@color/cardview_light_background"
+            android:background="?attr/colorAccent"
+            android:textSize="20dp"
+            android:text="select by few" />
+    </LinearLayout>
+</ScrollView>
