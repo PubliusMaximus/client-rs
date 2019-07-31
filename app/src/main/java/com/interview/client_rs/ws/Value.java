@@ -167,9 +167,9 @@ public class Value {
             case 2:
                 return "Jndi";
             case 3:
-                return "Description";
+                return "Descr";
             case 4:
-                return "Category";
+                return "Cat-ry";
             case 5:
                 return "Url";
             case 6:

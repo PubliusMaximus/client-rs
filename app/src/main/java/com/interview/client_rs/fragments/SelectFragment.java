@@ -153,6 +153,7 @@ public class SelectFragment extends Fragment {
             TextView headerTextView = new TextView(getContext());
             headerTextView.setText("  " + Value.getFieldName(i)+"  ");
             headerTextView.setTextSize(Requester.textSize);
+            headerTextView.setTextColor(getResources().getColor(R.color.colorAccent));
             header.addView(headerTextView, i);
         }
         tableLayout.addView(header, 0);
